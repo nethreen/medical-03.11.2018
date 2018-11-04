@@ -44,7 +44,6 @@ p{
     transition: all 0.3s ease 0s;
 }
 
-/*================= BUnlar yeni Mal============ */
 
 .icon{
     width:50px;
@@ -55,4 +54,27 @@ p{
     font-size: 15px;
     font-family:"Poppins", sans-serif;
 }
-/*=============== Cssi yazib doldurma ============ */
+
+.form-mother{
+    width: 60%;
+   
+   height: 50%;
+}
+
+.form-1{
+    border: solid 2px #777;
+}
+.get-started-button-2 {
+    position: relative;
+    width: 174px;
+    height: 46px;
+    background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    color: white;
+    border-radius: 25px;
+    font-family:inherit; 
+    border:none;
+    padding-right: 30px;
+
+}
