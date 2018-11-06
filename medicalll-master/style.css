@@ -1,11 +1,12 @@
-body{
+body {
     background-color: grey;
 }
 
-.container-header{
+.container-header {
     background-color: aliceblue;
 }
-.gradient-title{
+
+.gradient-title {
     background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
@@ -13,10 +14,12 @@ body{
     -webkit-text-fill-color: transparent;
     font-size: 60px;
 }
-p{
+
+p {
     font-family: "Poppins", sans-serif;
     color: #777;
 }
+
 .get-started-button {
     position: relative;
     width: 174px;
@@ -24,19 +27,19 @@ p{
     background: black;
     color: white;
     border-radius: 25px;
-    font-family:inherit; 
-    border:none;
+    font-family: inherit;
+    border: none;
     padding-right: 30px;
 }
 
-.arrow-icon{
+.arrow-icon {
     position: absolute;
     right: 30px;
     top: 50%;
-    transform:translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.get-started-button:hover .arrow-icon{
+.get-started-button:hover .arrow-icon {
     right: 20px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -45,36 +48,37 @@ p{
 }
 
 
-.icon{
-    width:50px;
-    height:50px;
+.icon {
+    width: 50px;
+    height: 50px;
 }
 
-.icon-text{
+.icon-text {
     font-size: 15px;
-    font-family:"Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.form-mother{
+.form-mother {
     width: 60%;
-   
-   height: 50%;
+
+    height: 50%;
 }
 
-.form-1{
+.form-1 {
     border: solid 2px #777;
 }
+
 .get-started-button-2 {
     position: relative;
-    width: 174px;
+    width: 194px;
     height: 46px;
     background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     color: white;
     border-radius: 25px;
-    font-family:inherit; 
-    border:none;
+    font-family: inherit;
+    border: none;
     padding-right: 30px;
 
 }
